@@ -1,0 +1,13 @@
+﻿Tham trị (Value Types):
+
+- Lưu giá trị của đối tượng lưu trữ 
+- Allocated on stack*
+- Memory allocation done automatically
+- Immediately removed when out of scope
+
+Tham chiếu (Reference Types):
+
+- Biến chứa địa chỉ con trỏ đến nơi lưu trữ đối tượng thực
+- Need to allocate memory
+- Memory allocated on heap*
+- Garbage collected(GC: dọn rác) by CLR
