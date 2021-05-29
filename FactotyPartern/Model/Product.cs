@@ -1,12 +1,10 @@
-﻿using FactotyPartern.Constants;
-using FactotyPartern.Interfaces;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FactotyPartern.Model
+namespace Shipping.Model
 {
     public class Product
     {

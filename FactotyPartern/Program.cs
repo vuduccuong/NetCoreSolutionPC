@@ -3,18 +3,17 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using FactotyPartern.Interfaces;
-using FactotyPartern.Model;
+using Shipping.Interfaces;
 using FactotyPartern.Services;
 using Microsoft.Extensions.DependencyInjection;
+using Shipping.Services;
 
-namespace FactotyPartern
+namespace Shipping
 {
     class Program
     {
         static void Main(string[] args)
         {
-            // DI
             //setup our DI
             var serviceProvider = new ServiceCollection()
                 .AddSingleton<ICaculatorShipService, CaculatorShipService>()

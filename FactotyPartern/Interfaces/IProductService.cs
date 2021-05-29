@@ -1,11 +1,11 @@
-﻿using FactotyPartern.Model;
+﻿using Shipping.Model;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FactotyPartern.Interfaces
+namespace Shipping.Interfaces
 {
     public interface IProductService
     {
