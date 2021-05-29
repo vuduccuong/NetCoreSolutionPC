@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace Arrays
 {
@@ -27,6 +28,23 @@ namespace Arrays
 
             //Sắp xếp
             Array.Sort(numbers);
+
+            var a = new List<int> { 1, 2, 3, 1, 35, 56, 1 };
+            foreach (var item in a)
+            {
+                if (item == 1)
+                {
+                    a.Remove(item);
+                }
+            }
+
+            foreach (var item in a)
+            {
+                if (item == 1)
+                {
+                    a.Remove(item);
+                }
+            }
         }
     }
 }
