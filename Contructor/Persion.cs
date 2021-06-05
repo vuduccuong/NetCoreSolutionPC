@@ -27,5 +27,10 @@ namespace Contructor
             this.Id = id;
             this.Name = name;
         }
+
+        protected void GetPersionInfo()
+        {
+            Console.WriteLine("{0} is {1}", this.Name, this.Id);
+        }
     }
 }
